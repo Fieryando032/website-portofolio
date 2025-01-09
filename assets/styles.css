@@ -23,6 +23,15 @@
   --z-fixed: 100;
 }
 
+@media screen and (min-width: 968px) {
+  :root {
+    --big-font-size: 3.5rem;
+    --h2-font-size: 2rem;
+    --normal-font-size: 1rem;
+    --smaller-font-size: .875rem;
+  }
+}
+
 /**-- BASE --*/
 *,::before,::after{
     box-sizing: border-box;
@@ -202,7 +211,7 @@ img{
   position: absolute;
   right: 0;
   bottom: 100px;
-  width: 550px;
+  width: 200px;
 }
 
 /*== Button ==*/
